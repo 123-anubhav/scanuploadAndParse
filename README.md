@@ -129,6 +129,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN mkdir -p /usr/share/tesseract-ocr/5/tessdata
 
+
 RUN curl -L \
  https://raw.githubusercontent.com/tesseract-ocr/tessdata/main/ocrb.traineddata \
  -o /usr/share/tesseract-ocr/5/tessdata/ocrb.traineddata
@@ -141,4 +142,18 @@ CMD ["bash"]
 ```
 
 ---
+---
+
+---
+these are the cases this rest api can handle and response
+![case01](./case01.jpeg)
+![case02](./case02.jpeg)
+![case01=3](./case03.jpeg)
+-
+this response geeting at user side of passport data
+![output04](./output01.jpeg)
+![output04 explain](./output04explain.jpeg)
+-
+if user did some mistake then we get this type of data that is incorrect you can simply add good response instead of this you need then you can modily it according to your requirement bases
+![usersdeissue](./usersideissue.jpeg)
 ---
